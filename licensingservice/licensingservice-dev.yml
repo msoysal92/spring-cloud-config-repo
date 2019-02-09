@@ -2,7 +2,11 @@ spring.jpa.database: "POSTGRESQL"
 spring.datasource.platform:  "postgres"
 spring.jpa.show-sql: "false"
 spring.database.driverClassName: "org.postgresql.Driver"
+<<<<<<< HEAD
 spring.datasource.url: "jdbc:postgresql://localhost:5432/cloud-local"
+=======
+spring.datasource.url: "jdbc:postgresql://database:5432/cloud-local"
+>>>>>>> branch 'master' of https://github.com/msoysal92/spring-cloud-config-repo.git
 spring.datasource.username: "postgres"
 spring.datasource.password: "Qkaeq38838"
 spring.datasource.testWhileIdle: "true"
